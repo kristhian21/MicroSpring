@@ -52,6 +52,23 @@ public class HttpServer {
             if(req.startsWith("/time")){
                 outputLine = CurrentTimeMillisService.currentTimeMillis();
             }
+            else {
+                outputLine = "HTTP/1.1 200 OK\r\n"
+                        + "Content-Type: text/html\r\n"
+                        + "\r\n"
+                        + "<!DOCTYPE html>"
+                        + "<html>"
+                        + "<head>"
+                        + "<meta charset=\"UTF-8\">"
+                        + "<title>Default</title>\n"
+                        + "</head>"
+                        + "<body>"
+                        + "<h1>"
+                        + "Default"
+                        + "</h1>"
+                        + "</body>"
+                        + "</html>";
+            }
             out.println(outputLine);
             out.close();
             in.close();

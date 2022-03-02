@@ -18,8 +18,6 @@ public class CurrentTimeMillisService {
                 + "<title>CurrenTimeMillis</title>\n"
                 + "</head>"
                 + "<body>"
-                + "<h1>Current Time in Milliseconds</h1>"
-                + "</div>"
                 + "<h1>"
                 + "The current time in milliseconds is:"
                 + "</h1>"
