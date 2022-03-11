@@ -30,4 +30,4 @@ Servicio de imagen
 
 ### Heroku
 
-[![ProjectDesign](https://www.herokucdn.com/deploy/button.png)](https://https://lab3arep.herokuapp.com//)
+[![ProjectDesign](https://www.herokucdn.com/deploy/button.png)](https://lab3arep.herokuapp.com/)
