@@ -64,12 +64,14 @@ public class HttpServer {
                         + "<html>"
                         + "<head>"
                         + "<meta charset=\"UTF-8\">"
-                        + "<title>Default</title>\n"
+                        + "<title>Micro Spring</title>\n"
                         + "</head>"
                         + "<body>"
                         + "<h1>"
-                        + "Default"
+                        + "Micro Spring ECI"
                         + "</h1>"
+                        + "<p>Servicio para consultar tiempo en milisegundos --> /time</p>"
+                        + "<p>Servicio para ver imagen --> /image</p>"
                         + "</body>"
                         + "</html>";
             }
