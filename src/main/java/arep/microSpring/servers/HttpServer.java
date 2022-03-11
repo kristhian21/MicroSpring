@@ -2,6 +2,7 @@ package arep.microSpring.servers;
 
 
 import arep.microSpring.services.CurrentTimeMillisService;
+import arep.microSpring.services.ReturnImageService;
 
 import java.net.*;
 import java.io.*;
@@ -51,6 +52,9 @@ public class HttpServer {
             // Servicio pagina HTML de tiempo en milisegundos
             if(req.startsWith("/time")){
                 outputLine = CurrentTimeMillisService.currentTimeMillis();
+            }
+            else if(req.startsWith("/image")){
+                outputLine = ReturnImageService.loadImage();
             }
             else {
                 outputLine = "HTTP/1.1 200 OK\r\n"
