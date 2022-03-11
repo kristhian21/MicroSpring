@@ -5,8 +5,6 @@ import arep.microSpring.annotations.RequestMapping;
 
 @Component
 public class CurrentTimeMillisService {
-
-    @RequestMapping("time")
     public static String currentTimeMillis(){
         return "HTTP/1.1 200 OK\r\n"
                 + "Content-Type: text/html\r\n"

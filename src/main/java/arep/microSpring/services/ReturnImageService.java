@@ -11,7 +11,6 @@ import java.net.URISyntaxException;
 
 @Component
 public class ReturnImageService {
-    @RequestMapping("image")
     public static String loadImage() throws URISyntaxException {
         String respuesta;
         // Se establecen los headers de la respuesta
